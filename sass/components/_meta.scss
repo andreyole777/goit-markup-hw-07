@@ -1,0 +1,60 @@
+.meta {
+  margin-top: 30px;
+
+  &--portfolio {
+    margin: 0;
+    padding: 20px 24px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--title-text-color);
+  }
+  &__title--type-white {
+    color: var(--white-text-color);
+  }
+  &__title--teammate {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: var(--title-text-color);
+  }
+  &__title--portfolio {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+    text-transform: none;
+  }
+
+  &__text {
+    margin-top: 10px;
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  &__text--teammate {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+  }
+  &__text--portfolio {
+    margin-top: 4px;
+    color: var(--primary-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+  }
+}

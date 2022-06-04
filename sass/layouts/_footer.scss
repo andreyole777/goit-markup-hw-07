@@ -1,0 +1,18 @@
+/*Footer*/
+.footer-section {
+  padding: 60px 0;
+  background-color: #2f303a;
+
+  &__container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  &__socials {
+    margin-left: 85px;
+  }
+
+  &__form {
+    margin-left: auto;
+  }
+}
