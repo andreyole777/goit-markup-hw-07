@@ -6,7 +6,7 @@ body {
   box-sizing: border-box;
 }
 
-.link {
+a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -26,6 +26,20 @@ body {
 .section {
   padding: 94px 0;
 
+  &__title {
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--title-text-color);
+
+    cursor: default;
+  }
+
   &--no-padding {
     padding-top: 0;
   }
@@ -33,47 +47,4 @@ body {
   &--another-bg-color {
     background-color: #f5f4fa;
   }
-}
-
-.main-title {
-  margin-bottom: 30px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: var(--white-text-color);
-}
-
-.title {
-  margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--title-text-color);
-}
-
-.uppertitle {
-  margin-bottom: 20px;
-
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  &--type-white {
-    color: var(--white-text-color);
-  }
-}
-
-.icon-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }

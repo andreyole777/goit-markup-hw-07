@@ -2,8 +2,11 @@
 
 .work-list {
   //--indent: 50px;
+  @extend %grid;
 
   &__item {
+    @extend %grid__item;
+
     --items: 3;
 
     position: relative;
@@ -24,6 +27,14 @@
   }
 
   &__title {
-    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--white-text-color);
+
+    cursor: default;
   }
 }

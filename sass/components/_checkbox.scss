@@ -12,18 +12,20 @@
 
     color: var(--primary-text-color);
   }
+}
 
-  &__icon {
-    margin-right: 8px;
+.checkbox__icon {
+  margin-right: 8px;
 
-    width: 15px;
-    height: 15px;
+  width: 15px;
+  height: 15px;
 
-    border: 2px solid var(--title-text-color);
-    border-radius: 2px;
-  }
+  border: 2px solid var(--title-text-color);
+  border-radius: 2px;
 
-  &__input:checked + &__icon {
+  cursor: pointer;
+
+  .checkbox__input:checked + & {
     border-color: transparent;
     background-color: var(--accent-color);
     background-image: url(../images/checkbox-icon.svg);
